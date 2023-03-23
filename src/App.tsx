@@ -60,9 +60,109 @@ export function App() {
             </div>
           </div>
         </article>
-        <p className="recipe">
-          <p></p>
-        </p>
+        <div className="recipe">
+          <div className="recipe__ingredients">
+            <h2 className="recipe__ingredients__title">Ingredients</h2>
+            <h3 className="recipe__ingredients__meal">Graham Cracker Crust</h3>
+            <div className="recipe__checklist">
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  1 and 1/2 cups (150g) graham cracker crumbs (about 10 full
+                  sheet graham crackers)
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  5 Tablespoons (70g) unsalted butter, melted{' '}
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  1/4 cup (50g) granulated sugar{' '}
+                </span>
+              </div>
+              <h3 className="recipe__ingredients__meal">Cheesecake</h3>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  four 8-ounce blocks (904g) full-fat cream cheese, softened to
+                  room temperature
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  1 cup (200g) granulated sugar
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  1 cup (240g) full-fat sour cream, at room temperature
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  1 teaspoon pure vanilla extract
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  2 teaspoons fresh lemon juice (optional, but recommended)
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  3 large eggs, at room temperature
+                </span>
+              </div>
+              <div className="recipe__checklist__item">
+                <div className="recipe__checklist__item__checkbox">
+                  <input type="checkbox" />
+                </div>
+                <span className="recipe__checklist__item__details">
+                  {' '}
+                  topping suggestions: salted caramel, lemon curd, strawberry
+                  topping, chocolate ganache, red wine chocolate ganache, fresh
+                  fruit, whipped cream, or raspberry sauce (recipe in notes)
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
