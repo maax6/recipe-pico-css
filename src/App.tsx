@@ -6,17 +6,18 @@ export function App() {
   return (
     <main className="container">
       <h1>Classic Cheesecake Recipe</h1>
-      <fieldset>
-        <label htmlFor="terms">
-          <input type="checkbox" id="terms" name="terms" />I agree to the Terms
-          and Conditions
-        </label>
+
+      <p className="cta">
+        <div className="dots">
+          <RxDragHandleDots2 style={{ transform: 'rotate(90deg)' }} />{' '}
+        </div>
         <p>
-        <RxDragHandleDots2 style = {{transform: 'rotate(90deg)' }} />Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eum
-          modi eaque laboriosam sint fugiat quis, laudantium non ratione, magni
-          cumque? In quo voluptas, sint ipsa quibusdam porro laborum. Dolorum.
+          Look no further for a creamy and ultra smooth classic cheesecake
+          recipe! Paired with a buttery graham cracker crust, no one can deny
+          its simple decadence. For the best results, bake in a water bath.
         </p>
-      </fieldset>
+      </p>
+
       <img src={cheesecake} alt="Cheesecake" />
     </main>
   );
