@@ -161,6 +161,7 @@ export function App() {
                 </span>
               </div>
             </div>
+            <h2 className="recipe__ingredients__title">Instructions</h2>
           </div>
         </div>
       </section>

@@ -38,7 +38,6 @@
   flex-direction: column;
   gap: 1em;
   height: 100%;
-  min-width: 180px;
   &__Card {
     display: flex;
     color: #333333;
@@ -48,7 +47,7 @@
     &__icon {
       font-size: 17px;
       @media screen and (min-width: 772px) {
-        font-size: 25px;
+        font-size: 40px;
       }
     }
     &__serving {
@@ -77,6 +76,7 @@
     padding-top: 0;
     box-shadow: none;
     margin-top: 15px;
+    margin-bottom: 0;;
   }
   &__timings {
     display: flex;
@@ -87,6 +87,8 @@
     }
   }
   @media screen and (min-width: 772px) {
+    margin-left: 10em;
+    min-width: 250px;
   }
 }
 
@@ -94,29 +96,30 @@
   color: #f2994a;
 }
 .recipe {
+  margin-top: 2em;
   &__ingredients {
     &__title {
-      font-size: 18px;
-      font-weight: 700;
+      font-family: 'Playfair';
+
     }
     &__meal {
       font-style: italic;
       font-weight: 400;
-      font-size: 16px;
       color: #333333;
+      margin-top: 1em;
     }
   }
   &__checklist {
     &__item {
+      margin: .5em 0;
     }
   }
-  &__checklist{
-	display: flex;
-	flex-direction: column;
-	row-gap: .8em;
-	&__item{
-		display: flex;
-	}
-
+  &__checklist {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4em;
+    &__item {
+      display: flex;
+    }
   }
 }
