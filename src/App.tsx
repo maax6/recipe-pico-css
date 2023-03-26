@@ -72,7 +72,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  1 and 1/2 cups (150g) graham cracker crumbs (about 10 full
+                  1 and 1/2 cups (150g) <b> graham cracker crumbs </b>(about 10 full
                   sheet graham crackers)
                 </span>
               </div>
@@ -82,7 +82,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  5 Tablespoons (70g) unsalted butter, melted{' '}
+                  5 Tablespoons (70g) <b>unsalted butter</b>, melted{' '}
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -91,7 +91,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  1/4 cup (50g) granulated sugar{' '}
+                  1/4 cup (50g) <b>granulated sugar</b>{' '}
                 </span>
               </div>
               <h3 className="recipe__ingredients__meal">Cheesecake</h3>
@@ -101,7 +101,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  four 8-ounce blocks (904g) full-fat cream cheese, softened to
+                  four 8-ounce blocks (904g) full-fat <b> cream cheese</b>, softened to
                   room temperature
                 </span>
               </div>
@@ -111,7 +111,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  1 cup (200g) granulated sugar
+                  1 cup (200g) <b>granulated sugar</b>
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -120,7 +120,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  1 cup (240g) full-fat sour cream, at room temperature
+                  1 cup (240g) full-fat <b>sour cream</b>, at room temperature
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -129,7 +129,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  1 teaspoon pure vanilla extract
+                  1 teaspoon <b>pure vanilla extract</b>
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -138,7 +138,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  2 teaspoons fresh lemon juice (optional, but recommended)
+                  2 teaspoons <b>fresh lemon juice</b> (optional, but recommended)
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -147,7 +147,7 @@ export function App() {
                 </div>
                 <span className="recipe__checklist__item__details">
                   {' '}
-                  3 large eggs, at room temperature
+                  3 large <b>eggs</b>, at room temperature
                 </span>
               </div>
               <div className="recipe__checklist__item">
@@ -176,7 +176,7 @@ export function App() {
                 <span className="recipe__instructions__item__number">2</span>
                 <span className="recipe__instructions__item__details">
                   {' '}
-                  Make the crust: Using a food processor, pulse the graham
+                  <b>Make the crust:</b> Using a food processor, pulse the graham
                   crackers into crumbs. Pour into a medium bowl and stir in
                   sugar and melted butter until combined. (You can also pulse it
                   all together in the food processor.) Mixture will be sandy.
@@ -192,7 +192,7 @@ export function App() {
               <div className="recipe__instructions__item">
                 <span className="recipe__instructions__item__number">3</span>
                 <span className="recipe__instructions__item__details">
-                  Make the filling: Using a handheld or stand mixer fitted with
+                  <b>Make the filling:</b> Using a handheld or stand mixer fitted with
                   a paddle attachment, beat the cream cheese and granulated
                   sugar together on medium-high speed in a large bowl until the
                   mixture is smooth and creamy, about 2 minutes. Add the sour
@@ -207,7 +207,7 @@ export function App() {
               <div className="recipe__instructions__item">
                 <span className="recipe__instructions__item__number">4</span>
                 <span className="recipe__instructions__item__details">
-                  Prepare the simple water bath (see note) Boil a pot of water.
+                  <b>Prepare the simple water bath (see note)</b> Boil a pot of water.
                   You need 1 inch of water in your roasting pan for the water
                   bath, so make sure you boil enough. I use an entire kettle of
                   hot water. As the water is heating up, wrap the aluminum foil
