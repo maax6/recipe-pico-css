@@ -1,5 +1,11 @@
+html,
+p,
+div {
+  color: #333333;
+}
 .title {
   font-size: 24px;
+  color: #333333;
   margin-top: 35px;
   @media screen and (min-width: 772px) {
     font-size: 48px;
@@ -24,6 +30,7 @@
 .img {
   border-radius: 12px;
   object-fit: cover;
+  margin-bottom: 1em;
 }
 .sec {
   display: flex;
@@ -76,7 +83,7 @@
     padding-top: 0;
     box-shadow: none;
     margin-top: 15px;
-    margin-bottom: 0;;
+    margin-bottom: 0;
   }
   &__timings {
     display: flex;
@@ -87,31 +94,35 @@
     }
   }
   @media screen and (min-width: 772px) {
-    margin-left: 10em;
+    margin-left: 5em;
     min-width: 250px;
   }
 }
 
 .orange {
-  color: #f2994a;
+  color: #f2994a !important;
 }
 .recipe {
   margin-top: 2em;
   &__ingredients {
     &__title {
-      font-family: 'Playfair';
-
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #333333;
+      margin-bottom: 1em;
     }
+
     &__meal {
       font-style: italic;
       font-weight: 400;
       color: #333333;
       margin-top: 1em;
+      margin-bottom: 1em;
     }
   }
   &__checklist {
     &__item {
-      margin: .5em 0;
+      margin: 0.5em 0;
     }
   }
   &__checklist {
@@ -122,4 +133,40 @@
       display: flex;
     }
   }
+  &__instructions {
+    &__item {
+      margin-bottom: 1.5em;
+      display: flex;
+
+      &__number {
+        margin-right: 1em;
+        height: 25px;
+        width: 25px;
+        border-radius: 20%;
+        font-family: 'Playfair', serif;
+        background-color: #f2994a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
+        padding: 0.7em;
+      }
+    }
+  }
 }
+footer{
+  bottom: 0;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1.2em;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-align: center;
+  color: #A9A9A9;
+  }
+  div i a{
+    color: #A9A9A9;
+  }
