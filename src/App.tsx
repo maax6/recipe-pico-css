@@ -162,8 +162,8 @@ export function App() {
                 </span>
               </div>
             </div>
-            <h2 className="recipe__ingredients__title">Instructions</h2>
             <div className="recipe__instructions">
+              <h2 className="recipe__instructions__title">Instructions</h2>
               <div className="recipe__instructions__item">
                 <span className="recipe__instructions__item__number">1</span>
                 <span className="recipe__instructions__item__details">
