@@ -1,3 +1,4 @@
+
 html,
 p,
 div {
@@ -134,7 +135,7 @@ div {
     }
   }
   &__instructions {
-    &__title{
+    &__title {
       font-size: 1.5em;
       font-weight: 700;
       color: #333333;
@@ -161,7 +162,7 @@ div {
     }
   }
 }
-footer{
+footer {
   bottom: 0;
   height: 200px;
   display: flex;
@@ -171,8 +172,8 @@ footer{
   font-family: 'Montserrat';
   font-size: 14px;
   text-align: center;
-  color: #A9A9A9;
-  }
-  div i a{
-    color: #A9A9A9;
-  }
+  color: #a9a9a9;
+}
+div i a {
+  color: #a9a9a9;
+}
