@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.scss';
 import './index.scss';
 import cheesecake from './assets/cheesecake.png';
